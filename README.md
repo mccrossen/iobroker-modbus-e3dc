@@ -14,3 +14,17 @@ Eine genaue Anleitung wie dies aktiviert wird ist hier zu finden: https://github
 4. Den Inhalt der CSV-Datei in das Eingabefeld kopieren und unten rechts mit dem kleinen Haken-Icon bestätigen.
 ![Menü Import aus CSV in der modbus-Adapterkonfiguration im ioBroker](./ioBroker_modbus-adapter_import.jpg?raw=true "ioBroker > Instanzen > modbus-Adapter > Konfiguration > Holding Registers > Import aus CSV")
 5. Abschließend die Adapterkonfiguration Speichern
+
+## Typen der Leistungsmesser
+|Typ|Bezeichnung|Hinweise|
+|--- | --- | --- |
+|1|Wurzelleistungsmesser| Dies ist der Regelpunkt des Systems. Der Regelpunkt entspricht üblicherweise dem Hausanschlusspunkt.|
+|2|Externe Produktion|–|
+|3|Zweirichtungszähler|–|
+|4|Externer Verbrauch|–|
+|5|Farm|–|
+|6|Wird nicht verwendet|–|
+|7|Wallbox|–|
+|8|Externer Leistungsmesser Farm|–|
+|9|Datenanzeige|Wird nicht in die Regelung eingebunden, sondern dient nur der Datenaufzeichnung des Kundenportals.|
+|10|Regelungsbypass|Die gemessene Leistung wird nicht in die Batterie geladen oder aus der Batterie entladen. |
