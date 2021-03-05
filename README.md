@@ -1,6 +1,6 @@
 # ioBroker Integration für E3DC über Modbus-Adapter
 Diese Anleitung beschreibt das Vorgehen um mit dem Modbus-Adapter des ioBroker einen E3DC über den Modbus auslesen zu können.
-Die Datei [e3dc_modbus_register.csv](./e3dc_modbus_register.csv) enthält alle Modbus Register-Werte laut Anleitung *Modbus/TCP-Schnittstelle der E3/DC GmbH – Anleitung für Fachkräfte* für die E3DC Stromspeicher mit Modbus TCP Unterstützung (bspw. S10 mini, S10 E, S10 E Pro und Quattroporte). 
+Die Datei [e3dc_modbus_register.csv](./e3dc_modbus_register.csv) enthält alle Modbus Register-Werte laut Anleitung *Modbus/TCP-Schnittstelle der E3/DC GmbH – Anleitung für Fachkräfte* in Version 1.70 für die E3DC Stromspeicher mit Modbus TCP Unterstützung (bspw. S10 mini, S10 E, S10 E Pro und Quattroporte). 
 
 ## Voraussetzungen
 * ioBroker mit Modbus-Adapter
