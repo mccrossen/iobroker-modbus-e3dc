@@ -1,6 +1,6 @@
 # ioBroker Integration für E3DC über Modbus-Adapter
 Diese Anleitung beschreibt das Vorgehen um mit dem Modbus-Adapter des ioBroker einen E3DC über den Modbus auslesen zu können.
-Die Datei [e3dc_modbus_register.csv](./e3dc_modbus_register.csv) enthält alle Modbus Register-Werte laut Anleitung *Modbus/TCP-Schnittstelle der E3/DC GmbH – Anleitung für Fachkräfte* in Version 1.70 für die E3DC Stromspeicher mit Modbus TCP Unterstützung (bspw. S10 mini, S10 E, S10 E Pro und Quattroporte). 
+Die Datei [e3dc_modbus_register.tsv](./e3dc_modbus_register.tsv) enthält alle Modbus Register-Werte laut Anleitung *Modbus/TCP-Schnittstelle der E3/DC GmbH – Anleitung für Fachkräfte* in Version 1.70 für die E3DC Stromspeicher mit Modbus TCP Unterstützung (bspw. S10 mini, S10 E, S10 E Pro und Quattroporte). 
 
 ## Voraussetzungen
 * ioBroker mit Modbus-Adapter
@@ -10,9 +10,9 @@ Eine genaue Anleitung wie dies aktiviert wird ist hier zu finden: https://github
 ## Konfiguration im ioBroker
 1. Modbus-Adapter im ioBroker installieren
 2. In der Konfiguration des Modbus-Adapter im Register Allgemein die IP des E3DC-Stromspeicher eintragen.
-3. In der Konfiguration des Modbus-Adapter im Register Holding Registers im rechten oberen Menü auf das Plus-Icon gehen.
-4. Den Inhalt der CSV-Datei in das Eingabefeld kopieren und unten rechts mit dem kleinen Haken-Icon bestätigen.
-![Menü Import aus CSV in der modbus-Adapterkonfiguration im ioBroker](./ioBroker_modbus-adapter_import.jpg?raw=true "ioBroker > Instanzen > modbus-Adapter > Konfiguration > Holding Registers > Import aus CSV")
+3. In der Konfiguration des Modbus-Adapter im Register Holding Registers im linken oberen Menü auf das Icon mit den gegenläufigen Pfeilen (Als TSV bearbeiten (Tabulatorgetrennte Werte)) gehen.
+4. Den Inhalt der TSV-Datei in das Eingabefeld kopieren und unten rechts mit dem Speichern-Icon / Import-Button bestätigen.
+![Menü Import aus TSV in der modbus-Adapterkonfiguration im ioBroker](./ioBroker_modbus-adapter_import.jpg?raw=true "ioBroker > Instanzen > modbus-Adapter > Konfiguration > Holding Registers > Daten als TSV bearbeiten")
 5. Abschließend die Adapterkonfiguration Speichern
 
 ## Typen der Leistungsmesser
