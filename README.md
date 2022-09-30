@@ -12,7 +12,7 @@ Eine genaue Anleitung wie dies aktiviert wird ist hier zu finden: https://github
 2. In der Konfiguration des Modbus-Adapter im Register Allgemein die IP des E3DC-Stromspeicher eintragen.
 3. In der Konfiguration des Modbus-Adapter im Register Holding Registers im linken oberen Menü auf das Icon mit den gegenläufigen Pfeilen (Als TSV bearbeiten (Tabulatorgetrennte Werte)) gehen.
 4. Den Inhalt der TSV-Datei in das Eingabefeld kopieren und unten rechts mit dem Speichern-Icon / Import-Button bestätigen.
-![Menü Import aus TSV in der modbus-Adapterkonfiguration im ioBroker](./ioBroker_modbus-adapter_import.jpg?raw=true "ioBroker > Instanzen > modbus-Adapter > Konfiguration > Holding Registers > Daten als TSV bearbeiten")
+![Menü Import aus TSV in der modbus-Adapterkonfiguration im ioBroker](./ioBroker_modbus-adapter_import-tsv.png?raw=true "ioBroker > Instanzen > modbus-Adapter > Konfiguration > Holding Registers > Daten als TSV bearbeiten")
 5. Abschließend die Adapterkonfiguration Speichern
 
 ## Typen der Leistungsmesser
